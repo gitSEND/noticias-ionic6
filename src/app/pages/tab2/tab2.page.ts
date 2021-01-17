@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-
-  constructor() {}
+  segmentSelected = 'business';
+  categorias: string[] = [
+    'business', 'entertainment', 'general', 'health', 'science', 'sports', 'technology'
+  ];
+  constructor() { }
 
 }
