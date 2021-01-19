@@ -7,10 +7,10 @@ import { IArticle } from '../../interfaces/interfaces';
   styleUrls: ['./noticias.component.scss'],
 })
 export class NoticiasComponent implements OnInit {
-
   @Input() noticias: IArticle[];
-  constructor() { }
+  @Input() enFavoritos = false;
 
-  ngOnInit() { }
+  constructor() {}
 
+  ngOnInit() {}
 }
